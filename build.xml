@@ -1,4 +1,4 @@
-<project name="HelloWorld" basedir="." default="main">
+<project name="HelloWorld" basedir="." default="main" xmlns:jacoco="antlib:org.jacoco.ant">
 
     <property name="src.dir"     value="src"/>
 
@@ -8,6 +8,10 @@
 	<property name="lib.dir"   value= "lib/"/>
 	<property name="report.dir"  value="${build.dir}/junitreport"/>
     <property name="main-class"  value="oata.HelloWorld"/>
+	<property name="result.dir" location="${build.dir}/target"/>
+	<property name="result.classes.dir" location="${result.dir}/classes"/>
+	<property name="result.report.dir" location="${result.dir}/site/jacoco"/>
+	<property name="result.exec.file" location="${result.dir}/jacoco.exec"/>
 	
 	<path id="classpath">
         <fileset dir="${lib.dir}" includes="**/*.jar"/>
@@ -16,9 +20,12 @@
 	<path id="application" location="${jar.dir}/${ant.project.name}.jar"/>
 
 	
-	
+	<taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+		<classpath path="../../../lib/jacocoant.jar"/>
+	</taskdef>
     <target name="clean">
         <delete dir="${build.dir}"/>
+	<!--	<delete dir="{result.dir}"/>-->
     </target>
 
     <target name="compile">
@@ -50,16 +57,19 @@
 	
 	<target name="junit" depends="jar">
 		<mkdir dir="${report.dir}"/>
-        <junit printsummary="yes">
-            <classpath>
-                <path refid="classpath"/>
-                <path refid="application"/>
-            </classpath>
-            <formatter type="xml"/>
-            <batchtest fork="yes">
-                <fileset dir="${src.dir}" includes="*Test.java"/>
-            </batchtest>
-        </junit>
+		<!--<mkdir dir="${result.exec.file}"/>-->
+		<jacoco:coverage destfile="${result.exec.file}">
+			<junit fork = "true" printsummary="yes">
+				<classpath>
+					<path refid="classpath"/>
+					<path refid="application"/>
+				</classpath>
+				<formatter type="xml"/>
+				<batchtest fork="yes">
+					<fileset dir="${src.dir}" includes="*Test.java"/>
+				</batchtest>
+			</junit>
+		</jacoco:coverage>
     </target>
 	
 	<target name="junitreport">
@@ -67,11 +77,29 @@
             <fileset dir="${report.dir}" includes="TEST-*.xml"/>
             <report todir="${report.dir}"/>
         </junitreport>
+	</target>
+	
+	<target name="report" depends="junit">
+		
+		<mkdir dir="${build.dir}/target"/>
+		<mkdir dir="${result.dir}/coverage"/>
+        <jacoco:report>
+            <executiondata>
+                <file file="${result.exec.file}" />
+            </executiondata>
+
+            <structure name="Code Coverage">
+                <classfiles>
+                    <fileset dir="${classes.dir}"/>
+                                     </classfiles>
+            </structure>
+            <html destdir="${result.dir}/coverage" />
+        </jacoco:report>
     </target>
 
 
     <target name="clean-build" depends="clean,jar"/>
 
-    <target name="main" depends="clean,junit,junitreport,run"/>
+    <target name="main" depends="clean,junit,junitreport,report,run"/>
 
 </project>
