@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="CLBLAP1068" name="HelloWorldTest" skipped="0" tests="3" time="0.37" timestamp="2017-01-17T21:03:05">
+<testsuite errors="0" failures="1" hostname="CLBLAP1068" name="HelloWorldTest" skipped="0" tests="3" time="0.234" timestamp="2017-01-18T17:21:33">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib/" />
-    <property name="result.exec.file" value="F:\testAnt\build\target\jacoco.exec" />
+    <property name="result.exec.file" value="f:\testAnt\build\target\jacoco.exec" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="os.name" value="Windows 10" />
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes" />
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;c:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;c:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;c:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.8.0_91\jre\classes" />
     <property name="sun.desktop" value="windows" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-    <property name="ant.home" value="F:\apache-ant-1.10.0-bin" />
+    <property name="ant.home" value="f:/apache-ant-1.10.0-bin" />
     <property name="jar.dir" value="build/jar" />
     <property name="java.runtime.version" value="1.8.0_91-b14" />
     <property name="user.name" value="praveen.joshi" />
     <property name="ant.file.type.HelloWorld" value="file" />
     <property name="build.dir" value="build" />
     <property name="user.language" value="en" />
-    <property name="ant.file.HelloWorld" value="F:\testAnt\build.xml" />
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin" />
+    <property name="ant.file.HelloWorld" value="f:\testAnt\build.xml" />
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_91\jre\bin" />
     <property name="ant.project.default-target" value="main" />
     <property name="ant.project.name" value="HelloWorld" />
     <property name="java.version" value="1.8.0_91" />
     <property name="user.timezone" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed" />
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="sun.jnu.encoding" value="Cp1252" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -33,32 +33,32 @@
     <property name="classes.dir" value="build/classes" />
     <property name="java.class.version" value="52.0" />
     <property name="user.country" value="IN" />
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre" />
+    <property name="java.home" value="c:\Program Files\Java\jdk1.8.0_91\jre" />
     <property name="java.vm.info" value="mixed mode" />
     <property name="main-class" value="oata.HelloWorld" />
-    <property name="ant.file" value="F:\testAnt\build.xml" />
+    <property name="ant.file" value="f:\testAnt\build.xml" />
     <property name="os.version" value="10.0" />
-    <property name="result.report.dir" value="F:\testAnt\build\target\site\jacoco" />
+    <property name="result.report.dir" value="f:\testAnt\build\target\site\jacoco" />
     <property name="path.separator" value=";" />
     <property name="java.vm.version" value="25.91-b14" />
     <property name="report.dir" value="build/junitreport" />
     <property name="user.variant" value="" />
-    <property name="ant.library.dir" value="F:\apache-ant-1.10.0-bin\lib" />
-    <property name="result.classes.dir" value="F:\testAnt\build\target\classes" />
+    <property name="ant.library.dir" value="f:/apache-ant-1.10.0-bin/lib" />
+    <property name="result.classes.dir" value="f:\testAnt\build\target\classes" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-    <property name="_jacoco.agentFile" value="C:\Users\PRAVEE~1.JOS\AppData\Local\Temp\jacocoagent3837086455209816035.jar" />
+    <property name="_jacoco.agentFile" value="C:\Users\PRAVEE~1.JOS\AppData\Local\Temp\jacocoagent1894254841155220496.jar" />
     <property name="sun.stdout.encoding" value="cp437" />
     <property name="user.script" value="" />
     <property name="user.home" value="C:\Users\praveen.joshi" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Broadcom\Broadcom 802.11;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_91\bin;F:\Maven\bin;C:\Program Files (x86)\nodejs\;C:\Users\praveen.joshi\Downloads\sonar-scanner-2.8\sonar-scanner-2.8\bin;F:\apache-ant-1.10.0-bin\bin;;." />
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.8.0_91\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\praveen.joshi\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Program Files\Broadcom\Broadcom 802.11;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Java\jdk1.8.0_91\bin;f:\Maven\bin;c:\Program Files (x86)\nodejs\;c:\Users\praveen.joshi\Downloads\sonar-scanner-2.8\sonar-scanner-2.8\bin;f:\apache-ant-1.10.0-bin\bin;.;." />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\testAnt\TEST-HelloWorldTest.xml crashfile=F:\testAnt\junitvmwatcher1022005507209378750.properties propsfile=F:\testAnt\junit1797111755403538327.properties" />
-    <property name="java.class.path" value="F:\testAnt\lib\asm-debug-all-5.1.jar;F:\testAnt\lib\junit-4.12.jar;F:\testAnt\lib\log4j-1.2.17.jar;F:\testAnt\lib\org.jacoco.agent-0.7.8.jar;F:\testAnt\lib\org.jacoco.ant-0.7.8.jar;F:\testAnt\lib\org.jacoco.core-0.7.8.jar;F:\testAnt\lib\org.jacoco.report-0.7.8.jar;F:\testAnt\build\jar\HelloWorld.jar;F:\apache-ant-1.10.0-bin\lib\ant-launcher.jar;F:\apache-ant-1.10.0-bin\lib\ant.jar;F:\apache-ant-1.10.0-bin\lib\ant-junit.jar;F:\apache-ant-1.10.0-bin\lib\ant-junit4.jar;C:\Users\PRAVEE~1.JOS\AppData\Local\Temp\jacocoagent3837086455209816035.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,f:\testAnt\TEST-HelloWorldTest.xml crashfile=f:\testAnt\junitvmwatcher5125384163175284429.properties propsfile=f:\testAnt\junit7130443892646007346.properties" />
+    <property name="java.class.path" value="f:\testAnt\lib\asm-debug-all-5.1.jar;f:\testAnt\lib\junit-4.12.jar;f:\testAnt\lib\log4j-1.2.17.jar;f:\testAnt\lib\org.jacoco.agent-0.7.8.jar;f:\testAnt\lib\org.jacoco.ant-0.7.8.jar;f:\testAnt\lib\org.jacoco.core-0.7.8.jar;f:\testAnt\lib\org.jacoco.report-0.7.8.jar;f:\testAnt\build\jar\HelloWorld.jar;F:\apache-ant-1.10.0-bin\lib\ant-launcher.jar;f:\apache-ant-1.10.0-bin\lib\ant.jar;f:\apache-ant-1.10.0-bin\lib\ant-junit.jar;f:\apache-ant-1.10.0-bin\lib\ant-junit4.jar;C:\Users\PRAVEE~1.JOS\AppData\Local\Temp\jacocoagent1894254841155220496.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.0 compiled on December 27 2016" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.file.type" value="file" />
@@ -69,27 +69,27 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="os.arch" value="amd64" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
-    <property name="user.dir" value="F:\testAnt" />
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="f:\testAnt" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-    <property name="result.dir" value="F:\testAnt\build\target" />
-    <property name="basedir" value="F:\testAnt" />
+    <property name="result.dir" value="f:\testAnt\build\target" />
+    <property name="basedir" value="f:\testAnt" />
     <property name="ant.java.version" value="1.8" />
-    <property name="ant.core.lib" value="F:\apache-ant-1.10.0-bin\lib\ant.jar" />
+    <property name="ant.core.lib" value="f:\apache-ant-1.10.0-bin\lib\ant.jar" />
     <property name="file.encoding" value="Cp1252" />
     <property name="sun.stderr.encoding" value="cp437" />
     <property name="java.specification.version" value="1.8" />
     <property name="src.dir" value="src" />
     <property name="ant.project.invoked-targets" value="main" />
   </properties>
-  <testcase classname="HelloWorldTest" name="testWillAlwaysFail" time="0.04">
+  <testcase classname="HelloWorldTest" name="testWillAlwaysFail" time="0.016">
     <failure message="An error message" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: An error message
 	at HelloWorldTest.testWillAlwaysFail(Unknown Source)
 </failure>
   </testcase>
-  <testcase classname="HelloWorldTest" name="testWillAlwaysPass" time="0.016" />
-  <testcase classname="HelloWorldTest" name="testNothing" time="0.002" />
+  <testcase classname="HelloWorldTest" name="testWillAlwaysPass" time="0.0" />
+  <testcase classname="HelloWorldTest" name="testNothing" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
