@@ -8,6 +8,6 @@ public class HelloWorld {
 
     public static void main(String[] args) {
         BasicConfigurator.configure();
-        logger.info("Hello World");          // the old SysO-statement
+        logger.info("Hello World");          // the old      SysO-statement
     }
 }
